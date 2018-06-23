@@ -1,0 +1,229 @@
+{
+   "geocoded_waypoints" : [
+      {
+         "geocoder_status" : "OK",
+         "place_id" : "Ei8yNDAtMjg4IENvdXJ0bGFuZCBTdCBORSwgQXRsYW50YSwgR0EgMzAzMDgsIFVTQQ",
+         "types" : [ "street_address" ]
+      },
+      {
+         "geocoder_status" : "OK",
+         "place_id" : "ChIJn4euvU399IgR-ieH9-WqeEA",
+         "types" : [ "route" ]
+      }
+   ],
+   "routes" : [
+      {
+         "bounds" : {
+            "northeast" : {
+               "lat" : 33.762047,
+               "lng" : -84.3786283
+            },
+            "southwest" : {
+               "lat" : 33.6586593,
+               "lng" : -84.43465399999999
+            }
+         },
+         "copyrights" : "Map data ©2018 Google",
+         "legs" : [
+            {
+               "distance" : {
+                  "text" : "9.0 mi",
+                  "value" : 14496
+               },
+               "duration" : {
+                  "text" : "12 mins",
+                  "value" : 740
+               },
+               "end_address" : "Harrison Rd, Atlanta, GA 30344, USA",
+               "end_location" : {
+                  "lat" : 33.6586593,
+                  "lng" : -84.43465399999999
+               },
+               "start_address" : "240-288 Courtland St NE, Atlanta, GA 30308, USA",
+               "start_location" : {
+                  "lat" : 33.762047,
+                  "lng" : -84.3841372
+               },
+               "steps" : [
+                  {
+                     "distance" : {
+                        "text" : "0.3 mi",
+                        "value" : 407
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 74
+                     },
+                     "end_location" : {
+                        "lat" : 33.7583883,
+                        "lng" : -84.38421369999999
+                     },
+                     "html_instructions" : "Head \u003cb\u003esouth\u003c/b\u003e on \u003cb\u003eCourtland St NE\u003c/b\u003e toward \u003cb\u003ePortman Blvd PATH\u003c/b\u003e",
+                     "polyline" : {
+                        "points" : "ycamEzg`bOj@?tBDr@?F@f@?rB@\\?dA@z@?j@@N?dC?"
+                     },
+                     "start_location" : {
+                        "lat" : 33.762047,
+                        "lng" : -84.3841372
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.2 mi",
+                        "value" : 293
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 47
+                     },
+                     "end_location" : {
+                        "lat" : 33.7583753,
+                        "lng" : -84.3810477
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e onto \u003cb\u003eEllis St NE\u003c/b\u003e",
+                     "maneuver" : "turn-left",
+                     "polyline" : {
+                        "points" : "}l`mEhh`bO@iD?O?Q@aE?_FAI"
+                     },
+                     "start_location" : {
+                        "lat" : 33.7583883,
+                        "lng" : -84.38421369999999
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "5.1 mi",
+                        "value" : 8203
+                     },
+                     "duration" : {
+                        "text" : "5 mins",
+                        "value" : 308
+                     },
+                     "end_location" : {
+                        "lat" : 33.6931482,
+                        "lng" : -84.4036296
+                     },
+                     "html_instructions" : "Keep \u003cb\u003eright\u003c/b\u003e at the fork, follow signs for \u003cb\u003eI-75 S\u003c/b\u003e/\u003cb\u003eI-85 S\u003c/b\u003e/\u003cb\u003eMontgomery\u003c/b\u003e/\u003cb\u003eMacon\u003c/b\u003e and merge onto \u003cb\u003eI-75 S\u003c/b\u003e/\u003cb\u003eI-85 S\u003c/b\u003e",
+                     "maneuver" : "fork-right",
+                     "polyline" : {
+                        "points" : "{l`mEpt_bOJ_@?O?a@Em@ASAM?M?GAQ?S@Q@I?G@GBKFUDK@ADIDGLMLMBARMLGJGHCNELCRGdC]?A@?@AXUj@CXCP?xAEv@ArA@zAFxBVj@Lj@Pp@Rl@VdAl@b@VZTRLRNNNfAhAf@h@\\b@|@fAtClDh@f@d@l@v@hAx@lAR\\\\p@N\\`BlEXdAVz@t@~Bb@jAJTR`@Xl@JPNRJRT\\dAbBBDZd@NVp@bArC`Ej@x@fCdD|@bAd@b@^Zl@^TNh@Vf@Th@PXH`@H`APd@Dl@Bd@@jCF~@@vCHb@?P?bBBjEDhDBB?B?`A@z@@B?t@@|BBzBBLBH?hD@xCDj@?`A@xA@R@T?`@@|@DV@TBv@Fz@JZD`@Hb@Hv@P^F@@p@P~@T`Cp@x@Rz@Tf@JTFTDh@Jj@Jh@FVBj@D`AFV@zBLtBHpAHv@FdAJf@Fh@Fr@NfAZVH`@N\\Nn@^DBRJbAn@j@\\nDbCzBzAvAfAXPDD^TNJhBlAfBfAj@Xj@Vh@TnAd@nA`@|DbAb@J\\Jv@RZJTHt@Xh@R\\Rb@Td@Zx@h@dClB|AlAl@`@~@j@v@b@j@XzAj@f@R|Ab@dCr@`EhAzBl@tBj@rBh@z@T`B^bBZfBVtCVrBNP@j@B~ADH?nGFvBJ~@BdBJ`AJ|C^f@FH@\\F`I|@^BB?@?P@B@@?p@Bh@DT?V?Z?fAERALC^Eb@KLCVG|@[RGlAm@v@c@f@[^YxA_A"
+                     },
+                     "start_location" : {
+                        "lat" : 33.7583753,
+                        "lng" : -84.3810477
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "3.1 mi",
+                        "value" : 4961
+                     },
+                     "duration" : {
+                        "text" : "3 mins",
+                        "value" : 179
+                     },
+                     "end_location" : {
+                        "lat" : 33.6607492,
+                        "lng" : -84.4289399
+                     },
+                     "html_instructions" : "Keep \u003cb\u003eright\u003c/b\u003e at the fork to continue on \u003cb\u003eI-85 S\u003c/b\u003e, follow signs for \u003cb\u003eDomestic Airport\u003c/b\u003e/\u003cb\u003eMontgomery\u003c/b\u003e",
+                     "maneuver" : "fork-right",
+                     "polyline" : {
+                        "points" : "euslEtadbOZ?BA@?NIrBqAfAq@~AcAnCcBdBeAn@_@f@Wp@W`AYx@M`@Ep@CP?\\?l@?d@D`@Fh@Nh@Nl@V^Rf@^|@v@d@h@d@r@Xd@JRTh@J\\HTHXH^J`@\\`BTfAX`Bn@xDPbAVxANz@RlAV~A@B@F@Hb@`CDVJh@Nr@Pn@J\\FPPb@N\\NXh@t@X^TRVXPPTNNJNL`@Tb@R^Nf@Nz@Vr@Pt@RpDt@xCn@pAXvAXnAZ^Hh@LTHfATnAVtCl@jB`@~Bh@lCj@xEbA^J`ARpAVXH`@HnDz@vDx@nCn@bDp@p@PfAV^Nj@TbAh@z@j@\\Td@^d@b@f@h@\\b@f@r@Vb@Xd@Vd@`@z@DJ^dAt@dC^xANh@`@rALd@fA|Dl@pBZjAfBfG\\dApAxDjA|Ct@pBJVBDrCzG@?LZHTj@hA"
+                     },
+                     "start_location" : {
+                        "lat" : 33.6931482,
+                        "lng" : -84.4036296
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.2 mi",
+                        "value" : 367
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 37
+                     },
+                     "end_location" : {
+                        "lat" : 33.6590739,
+                        "lng" : -84.43233550000001
+                     },
+                     "html_instructions" : "Take exit \u003cb\u003e73\u003c/b\u003e toward \u003cb\u003eCollege Park\u003c/b\u003e",
+                     "maneuver" : "ramp-right",
+                     "polyline" : {
+                        "points" : "ujmlEz_ibO?H@H@HHXXn@JV?@Vl@P`@BHFLzArDj@tAr@bBh@nA"
+                     },
+                     "start_location" : {
+                        "lat" : 33.6607492,
+                        "lng" : -84.4289399
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.1 mi",
+                        "value" : 209
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 44
+                     },
+                     "end_location" : {
+                        "lat" : 33.6591594,
+                        "lng" : -84.4345886
+                     },
+                     "html_instructions" : "Merge onto \u003cb\u003eVirginia Ave\u003c/b\u003e",
+                     "maneuver" : "merge",
+                     "polyline" : {
+                        "points" : "e`mlEbuibOAf@Ah@?JE~@?`@Ch@?x@A^?JApB"
+                     },
+                     "start_location" : {
+                        "lat" : 33.6590739,
+                        "lng" : -84.43233550000001
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "184 ft",
+                        "value" : 56
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 51
+                     },
+                     "end_location" : {
+                        "lat" : 33.6586593,
+                        "lng" : -84.43465399999999
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e onto \u003cb\u003eHarrison Rd\u003c/b\u003e\u003cdiv style=\"font-size:0.9em\"\u003eDestination will be on the left\u003c/div\u003e",
+                     "maneuver" : "turn-left",
+                     "polyline" : {
+                        "points" : "w`mlEdcjbObADZBB@"
+                     },
+                     "start_location" : {
+                        "lat" : 33.6591594,
+                        "lng" : -84.4345886
+                     },
+                     "travel_mode" : "DRIVING"
+                  }
+               ],
+               "traffic_speed_entry" : [],
+               "via_waypoint" : []
+            }
+         ],
+         "overview_polyline" : {
+            "points" : "ycamEzg`bO|MJ|F@BmKAiFJo@IqBAg@Bw@DSLa@Za@PO`@Ur@UzCg@ZWdAGjBEjC?zAFxBVvA^~Aj@hBdArAbAnBrBzAjBtClDh@f@|AvBlAjBl@nA`BlEXdAlAzDn@`Bl@nA|@vAtBfDdEdGrD~EbBfBlAz@~@f@pAf@z@RfBV~GNzDHtBB|JHvDDxFFVBpLHdDDtAFlAJvAPdARjCl@vHpB|Bd@tARbAHjI`@hCPlBR|AV~Ad@~@^t@b@vAz@zE`DrFzDn@`@pEtCvAp@xBz@lGdB`AVrA^jAb@fAf@hAp@jIfGvBnAfCdAdCv@fI|B`LxCdEz@fBVtCVdCPjCHxGFvDNfDVdEf@f@H`J`AZBrBHr@?zAG~AYtAc@`Bu@~A_AxByA^APIjLkHtCeBxAo@`AYx@MrAIn@?l@?d@DjAVvAf@fAr@|@v@d@h@~@xA`@|@h@lBh@bCn@hDhBrKn@xDv@lE`@bBRn@`@`Ax@nAn@r@h@j@d@Zp@b@bAb@bBf@hBd@jIdBxGxA~@VvCl@nOdDlKzBbLhCrH`BxBh@jAd@~BtAbAt@lAlAdAvAp@hAx@`Bd@pAfC|I~C`LdClI|CvI`AhCvC`HdAzB@RJb@d@hAzGdPI|CEdDA|B~AHB@"
+         },
+         "summary" : "I-85 S",
+         "warnings" : [],
+         "waypoint_order" : []
+      }
+   ],
+   "status" : "OK"
+}

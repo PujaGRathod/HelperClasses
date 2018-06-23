@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="SanFranciscoDisplay-Medium.otf">
+            <string>SanFranciscoDisplay-Medium</string>
+        </array>
+        <array key="SanFranciscoDisplay-Thin.otf">
+            <string>SanFranciscoDisplay-Thin</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="PastTripsTblCell" rowHeight="110" id="KGk-i7-Jjw" customClass="PastTripsTblCell" customModule="Points2Miles" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="110"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="109.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pontsDetailViewShadow" translatesAutoresizingMaskIntoConstraints="NO" id="PiK-NL-cVX">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="109.5"/>
+                    </imageView>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5vp-Xo-WkF">
+                        <rect key="frame" x="10" y="10" width="300" height="89.5"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gs6-jN-sts">
+                                <rect key="frame" x="145" y="10" width="155" height="17.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="17" id="S7I-xR-SSB"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="SanFranciscoDisplay-Thin" family="San Francisco Display" pointSize="14"/>
+                                <color key="textColor" red="0.32156862749999998" green="0.3803921569" blue="0.43921568630000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gfw-sD-CNy">
+                                <rect key="frame" x="145" y="27.5" width="155" height="17"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="17" id="Jqa-SS-Hg9"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="SanFranciscoDisplay-Thin" family="San Francisco Display" pointSize="14"/>
+                                <color key="textColor" red="0.1333333333" green="0.69803921570000005" blue="0.79607843140000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="imgHotelPlaceHolder" translatesAutoresizingMaskIntoConstraints="NO" id="BAX-u9-Jq2">
+                                <rect key="frame" x="0.0" y="0.0" width="135" height="89.5"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="BAX-u9-Jq2" secondAttribute="height" multiplier="1.5" id="iGH-PV-c17"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dxv-9i-Q4a">
+                                <rect key="frame" x="145" y="10" width="155" height="0.0"/>
+                                <fontDescription key="fontDescription" name="SanFranciscoDisplay-Medium" family="San Francisco Display" pointSize="16"/>
+                                <color key="textColor" red="0.32156862749999998" green="0.3803921569" blue="0.43921568630000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Gfw-sD-CNy" firstAttribute="top" secondItem="Gs6-jN-sts" secondAttribute="bottom" id="8rX-4T-IPC"/>
+                            <constraint firstItem="BAX-u9-Jq2" firstAttribute="leading" secondItem="5vp-Xo-WkF" secondAttribute="leading" id="CIh-61-ZtI"/>
+                            <constraint firstItem="BAX-u9-Jq2" firstAttribute="top" secondItem="5vp-Xo-WkF" secondAttribute="top" id="HKQ-4n-Owa"/>
+                            <constraint firstItem="Gs6-jN-sts" firstAttribute="top" secondItem="dxv-9i-Q4a" secondAttribute="bottom" id="W6O-y4-7Zh"/>
+                            <constraint firstItem="Gs6-jN-sts" firstAttribute="trailing" secondItem="dxv-9i-Q4a" secondAttribute="trailing" id="gQt-dy-QYA"/>
+                            <constraint firstItem="Gfw-sD-CNy" firstAttribute="trailing" secondItem="Gs6-jN-sts" secondAttribute="trailing" id="hL7-mW-fFa"/>
+                            <constraint firstItem="dxv-9i-Q4a" firstAttribute="leading" secondItem="BAX-u9-Jq2" secondAttribute="trailing" constant="10" id="jw3-Fa-FdA"/>
+                            <constraint firstItem="dxv-9i-Q4a" firstAttribute="top" secondItem="5vp-Xo-WkF" secondAttribute="top" constant="10" id="rKT-UU-U1B"/>
+                            <constraint firstItem="BAX-u9-Jq2" firstAttribute="centerY" secondItem="5vp-Xo-WkF" secondAttribute="centerY" id="ru4-aa-lzf"/>
+                            <constraint firstAttribute="trailing" secondItem="dxv-9i-Q4a" secondAttribute="trailing" id="tK0-8Q-rG1"/>
+                            <constraint firstItem="Gfw-sD-CNy" firstAttribute="leading" secondItem="Gs6-jN-sts" secondAttribute="leading" id="uC6-9c-Hz1"/>
+                            <constraint firstAttribute="bottom" secondItem="BAX-u9-Jq2" secondAttribute="bottom" id="v6j-TJ-es8"/>
+                            <constraint firstItem="Gs6-jN-sts" firstAttribute="leading" secondItem="dxv-9i-Q4a" secondAttribute="leading" id="zdF-TK-KC6"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstItem="5vp-Xo-WkF" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="8wA-z9-HB6"/>
+                    <constraint firstAttribute="bottom" secondItem="PiK-NL-cVX" secondAttribute="bottom" id="QMv-tT-PeT"/>
+                    <constraint firstAttribute="trailing" secondItem="5vp-Xo-WkF" secondAttribute="trailing" constant="10" id="Wrz-f2-RFq"/>
+                    <constraint firstAttribute="trailing" secondItem="PiK-NL-cVX" secondAttribute="trailing" id="faa-KK-8I1"/>
+                    <constraint firstItem="PiK-NL-cVX" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="mgB-G0-lhp"/>
+                    <constraint firstItem="5vp-Xo-WkF" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="owM-DE-ppn"/>
+                    <constraint firstItem="PiK-NL-cVX" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="rDk-Pp-aDk"/>
+                    <constraint firstAttribute="bottom" secondItem="5vp-Xo-WkF" secondAttribute="bottom" constant="10" id="xUy-hy-Koe"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="address" destination="Gs6-jN-sts" id="TVb-09-OSJ"/>
+                <outlet property="distance" destination="Gfw-sD-CNy" id="WZa-jm-L41"/>
+                <outlet property="imgTrip" destination="BAX-u9-Jq2" id="oQB-Em-kCI"/>
+                <outlet property="tripName" destination="dxv-9i-Q4a" id="awi-iV-MLq"/>
+                <outlet property="viewContent" destination="5vp-Xo-WkF" id="y4h-1G-sXO"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="imgHotelPlaceHolder" width="172" height="172"/>
+        <image name="pontsDetailViewShadow" width="720" height="230"/>
+    </resources>
+</document>

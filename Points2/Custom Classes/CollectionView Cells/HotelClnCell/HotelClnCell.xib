@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="SanFranciscoDisplay-Bold.otf">
+            <string>SanFranciscoDisplay-Bold</string>
+        </array>
+        <array key="SanFranciscoDisplay-Regular.otf">
+            <string>SanFranciscoDisplay-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="HotelClnCell" customModule="Point2Miles" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="135" height="175"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="135" height="175"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rz2-VX-wMG">
+                        <rect key="frame" x="0.0" y="0.0" width="135" height="175"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="rzz-dP-Nu2">
+                                <rect key="frame" x="0.0" y="0.0" width="135" height="96.5"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="96.5" id="yb6-ef-Ypc"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dkD-o1-gIM">
+                                <rect key="frame" x="9" y="102.5" width="124" height="17"/>
+                                <fontDescription key="fontDescription" name="SanFranciscoDisplay-Bold" family="San Francisco Display" pointSize="14"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Address" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e8u-8y-rcn">
+                                <rect key="frame" x="9" y="120.5" width="124" height="13"/>
+                                <fontDescription key="fontDescription" name="SanFranciscoDisplay-Regular" family="San Francisco Display" pointSize="11"/>
+                                <color key="textColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LocationPinIcon" translatesAutoresizingMaskIntoConstraints="NO" id="ITk-uD-cX9">
+                                <rect key="frame" x="9" y="147.5" width="10" height="13"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="10" id="ESe-IP-dBJ"/>
+                                    <constraint firstAttribute="height" constant="13" id="Kmb-pj-AvV"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="8.34 miles" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eNJ-Iz-4BX">
+                                <rect key="frame" x="26" y="147" width="107" height="14.5"/>
+                                <fontDescription key="fontDescription" name="SanFranciscoDisplay-Bold" family="San Francisco Display" pointSize="12"/>
+                                <color key="textColor" red="0.1803921568627451" green="0.69803921568627447" blue="0.78823529411764703" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="dkD-o1-gIM" firstAttribute="leading" secondItem="rz2-VX-wMG" secondAttribute="leading" constant="9" id="1rQ-gh-a5U"/>
+                            <constraint firstAttribute="bottom" secondItem="ITk-uD-cX9" secondAttribute="bottom" constant="14.5" id="D28-fi-7rd"/>
+                            <constraint firstAttribute="trailing" secondItem="rzz-dP-Nu2" secondAttribute="trailing" id="JSO-6h-Xqo"/>
+                            <constraint firstItem="ITk-uD-cX9" firstAttribute="top" relation="greaterThanOrEqual" secondItem="e8u-8y-rcn" secondAttribute="bottom" constant="8" id="Mf8-20-6Ab"/>
+                            <constraint firstItem="e8u-8y-rcn" firstAttribute="top" secondItem="dkD-o1-gIM" secondAttribute="bottom" constant="1" id="QUN-Pi-g1l"/>
+                            <constraint firstItem="ITk-uD-cX9" firstAttribute="leading" secondItem="rz2-VX-wMG" secondAttribute="leading" constant="9" id="UeJ-VU-PEb"/>
+                            <constraint firstItem="rzz-dP-Nu2" firstAttribute="leading" secondItem="rz2-VX-wMG" secondAttribute="leading" id="WZI-O0-E73"/>
+                            <constraint firstItem="eNJ-Iz-4BX" firstAttribute="leading" secondItem="ITk-uD-cX9" secondAttribute="trailing" constant="7" id="bgu-a2-tTi"/>
+                            <constraint firstItem="e8u-8y-rcn" firstAttribute="leading" secondItem="dkD-o1-gIM" secondAttribute="leading" id="e2d-Pj-FO2"/>
+                            <constraint firstItem="rzz-dP-Nu2" firstAttribute="top" secondItem="rz2-VX-wMG" secondAttribute="top" id="hyL-PM-xRC"/>
+                            <constraint firstItem="dkD-o1-gIM" firstAttribute="top" secondItem="rzz-dP-Nu2" secondAttribute="bottom" constant="6" id="oS2-0w-Cbj"/>
+                            <constraint firstAttribute="trailing" secondItem="dkD-o1-gIM" secondAttribute="trailing" constant="2" id="p11-lg-ARu"/>
+                            <constraint firstItem="eNJ-Iz-4BX" firstAttribute="top" secondItem="ITk-uD-cX9" secondAttribute="top" id="sng-ug-Axh"/>
+                            <constraint firstAttribute="trailing" secondItem="eNJ-Iz-4BX" secondAttribute="trailing" constant="2" id="u0j-xq-ikU"/>
+                            <constraint firstAttribute="trailing" secondItem="e8u-8y-rcn" secondAttribute="trailing" constant="2" id="wXh-nS-qmd"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="rz2-VX-wMG" firstAttribute="top" secondItem="ZTg-uK-7eu" secondAttribute="top" id="1nX-tG-WPd"/>
+                <constraint firstItem="ZTg-uK-7eu" firstAttribute="leading" secondItem="rz2-VX-wMG" secondAttribute="leading" id="HCX-hM-1Pa"/>
+                <constraint firstItem="rz2-VX-wMG" firstAttribute="trailing" secondItem="ZTg-uK-7eu" secondAttribute="trailing" id="NK8-43-cnQ"/>
+                <constraint firstItem="ZTg-uK-7eu" firstAttribute="bottom" secondItem="rz2-VX-wMG" secondAttribute="bottom" id="nIo-gK-2Az"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <size key="customSize" width="116" height="189"/>
+            <connections>
+                <outlet property="addressLabel" destination="e8u-8y-rcn" id="eXB-oV-RA8"/>
+                <outlet property="containerView" destination="rz2-VX-wMG" id="pyv-fY-0nn"/>
+                <outlet property="distanceLabel" destination="eNJ-Iz-4BX" id="msU-HE-7Lh"/>
+                <outlet property="hotelImageView" destination="rzz-dP-Nu2" id="or1-u4-ZHw"/>
+                <outlet property="nameLabel" destination="dkD-o1-gIM" id="zV3-cH-2Dm"/>
+            </connections>
+            <point key="canvasLocation" x="57.5" y="-17.5"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="LocationPinIcon" width="20" height="26"/>
+    </resources>
+</document>

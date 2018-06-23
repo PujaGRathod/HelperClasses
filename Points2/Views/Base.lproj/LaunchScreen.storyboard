@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LaunchScreenBackground" translatesAutoresizingMaskIntoConstraints="NO" id="X8f-fL-avC">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8R0-LC-rHM">
+                                <rect key="frame" x="0.0" y="204" width="375" height="279.5"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LaunchScreenGraphic" translatesAutoresizingMaskIntoConstraints="NO" id="syU-Zq-Zck">
+                                        <rect key="frame" x="37" y="8" width="301" height="118.5"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="118.5" id="H93-eE-SpX"/>
+                                        </constraints>
+                                    </imageView>
+                                    <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mS9-zx-bOH">
+                                        <rect key="frame" x="37" y="163.5" width="301" height="100"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="100" id="46n-qS-0im"/>
+                                        </constraints>
+                                        <attributedString key="attributedText">
+                                            <fragment content="Earn ">
+                                                <attributes>
+                                                    <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <font key="NSFont" size="22" name="SanFranciscoDisplay-Regular"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                </attributes>
+                                            </fragment>
+                                            <fragment content="IHG Rewards points">
+                                                <attributes>
+                                                    <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <font key="NSFont" size="22" name="SanFranciscoDisplay-Bold"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                </attributes>
+                                            </fragment>
+                                            <fragment>
+                                                <string key="content"> every time drive to a participating 
+</string>
+                                                <attributes>
+                                                    <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <font key="NSFont" size="22" name="SanFranciscoDisplay-Regular"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                </attributes>
+                                            </fragment>
+                                            <fragment content="IHG hotel">
+                                                <attributes>
+                                                    <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <font key="NSFont" size="22" name="SanFranciscoDisplay-Bold"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                </attributes>
+                                            </fragment>
+                                        </attributedString>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="mS9-zx-bOH" firstAttribute="leading" secondItem="8R0-LC-rHM" secondAttribute="leading" constant="37" id="Bb2-vl-tRo"/>
+                                    <constraint firstAttribute="bottom" secondItem="mS9-zx-bOH" secondAttribute="bottom" constant="16" id="EJ6-pT-4Hx"/>
+                                    <constraint firstAttribute="trailing" secondItem="mS9-zx-bOH" secondAttribute="trailing" constant="37" id="No7-gG-HNY"/>
+                                    <constraint firstAttribute="trailing" secondItem="syU-Zq-Zck" secondAttribute="trailing" constant="37" id="Vto-jI-lA2"/>
+                                    <constraint firstItem="syU-Zq-Zck" firstAttribute="leading" secondItem="8R0-LC-rHM" secondAttribute="leading" constant="37" id="ayN-gz-Koe"/>
+                                    <constraint firstItem="mS9-zx-bOH" firstAttribute="top" secondItem="syU-Zq-Zck" secondAttribute="bottom" constant="37" id="qNt-9b-onD"/>
+                                    <constraint firstItem="syU-Zq-Zck" firstAttribute="top" secondItem="8R0-LC-rHM" secondAttribute="top" constant="8" id="wIw-5I-SeD"/>
+                                </constraints>
+                            </view>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="AppLogo" translatesAutoresizingMaskIntoConstraints="NO" id="miB-fH-3OA">
+                                <rect key="frame" x="126" y="30" width="123" height="30.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="123" id="VgK-eQ-tK2"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.3294117647" green="0.39607843139999999" blue="0.42352941179999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="miB-fH-3OA" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="10" id="9gC-2R-q1C"/>
+                            <constraint firstItem="8R0-LC-rHM" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="Ezu-QC-NxF"/>
+                            <constraint firstItem="X8f-fL-avC" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="NNe-OX-hBP"/>
+                            <constraint firstItem="8R0-LC-rHM" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="W4i-3W-i4g"/>
+                            <constraint firstItem="8R0-LC-rHM" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="ZpM-7b-Q1k"/>
+                            <constraint firstItem="miB-fH-3OA" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="ga7-u0-jfg"/>
+                            <constraint firstAttribute="bottom" secondItem="X8f-fL-avC" secondAttribute="bottom" id="hQA-Rd-a3K"/>
+                            <constraint firstItem="miB-fH-3OA" firstAttribute="width" secondItem="miB-fH-3OA" secondAttribute="height" multiplier="239:59" id="pUg-YH-Jzy"/>
+                            <constraint firstItem="X8f-fL-avC" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="rcP-Pd-23H"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="X8f-fL-avC" secondAttribute="trailing" id="zDc-f3-o5i"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-383" y="90"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="AppLogo" width="239" height="59"/>
+        <image name="LaunchScreenBackground" width="750" height="1334"/>
+        <image name="LaunchScreenGraphic" width="364" height="251"/>
+    </resources>
+</document>
