@@ -1,0 +1,14 @@
+
+
+target 'SoMo' do
+  use_frameworks!
+  pod 'IQKeyboardManagerSwift'
+  pod 'SDWebImage', '~>3.8'
+  pod 'Alamofire'
+  pod 'SwiftyJSON'
+  pod 'IQDropDownTextField'
+  pod 'GoogleMaps'
+  pod 'GooglePlaces'
+#  pod 'Floaty', '~> 3.0.0' # Use version 4.0.0 for Swift 4.0
+#  pod 'ActionButton'
+end
